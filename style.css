@@ -1,0 +1,51 @@
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color:hsl(185, 75%, 39%); 
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#fundo-direito {
+    position: fixed;
+    top: 50%;
+    left: 50%;  
+}
+
+#fundo-esquerdo {
+    position: fixed;
+    bottom: 50%;
+    right: 50%;
+    
+   
+}
+
+.card {
+    
+    padding: 2.4rem;
+    position: relative;
+    border-radius: 15px;
+    background-color: #ffffff;
+    width: 90%;
+    max-width: 500px;
+    
+   
+   
+}
+
+footer {
+    font-size: 11px; 
+    text-align: center; 
+    align-items: center;
+    color: hsl(228, 45%, 44%); 
+    padding:  4rem 0 2rem;
+}
+
