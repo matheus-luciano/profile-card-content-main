@@ -1,7 +1,10 @@
 
 body {
     font-family: 'Kumbh Sans', sans-serif;
-    background-color:hsl(185, 75%, 39%); 
+    font-size: 18px;
+    background-color:hsl(185, 75%, 39%);
+    padding: 0;
+    margin: 0; 
 }
 
 main {
@@ -11,6 +14,13 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+hr {
+    opacity: 0.3;
+    color: hsl(227, 10%, 46%);
+}
+
+
 
 
 
@@ -29,16 +39,69 @@ main {
 }
 
 .card {
-    
-    padding: 2.4rem;
     position: relative;
     border-radius: 15px;
     background-color: #ffffff;
-    width: 90%;
-    max-width: 500px;
+     
+}
+
+.card-top{
+    border-radius: 15px 15px;
+}
+
+.card-profile {
     
-   
-   
+    position: absolute;
+    border-radius: 50%;
+    border-color: white;
+    border-radius: 15px;
+}
+
+.card-middle{
+    text-align: center;
+    align-items: center;
+    text-align: center;
+    
+    padding: 2rem 0 2rem 0;
+    font: 300;
+    color: hsl(229, 23%, 23%);
+}
+
+.card-bottom {
+    
+    position: relative;
+    justify-content: space-evenly;
+    color: hsl(229, 23%, 23%);
+    display: flex;
+    padding: 0 0 2rem 0;
+}
+
+#image-top{
+    border-radius: 15px 15px 0 0;
+}
+
+#image-profile {
+    border-radius: 50%;
+    border-color: white;
+    border-width: 15px;
+}
+
+.followers {
+    text-align: center;
+}
+
+.likes {
+    text-align: center;
+}
+
+.photos {
+    text-align: center;
+}
+
+.unbold-text {
+    color:hsl(229, 23%, 23%);
+    font-weight: normal;
+    opacity: 0.7;
 }
 
 footer {
