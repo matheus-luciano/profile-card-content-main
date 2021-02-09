@@ -1,4 +1,8 @@
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 18px;
@@ -20,7 +24,13 @@ hr {
     color: hsl(227, 10%, 46%);
 }
 
+h3 {
+    margin: 1rem 0 10px 0;
+}
 
+p {
+    margin: 0;
+}
 
 
 
@@ -39,19 +49,26 @@ hr {
 }
 
 .card {
+    margin: 2rem;
     position: relative;
     border-radius: 15px;
     background-color: #ffffff;
-     
+    width: 430px;
+    height: 430px;
 }
 
 .card-top{
     border-radius: 15px 15px;
+    width: 100%;
+    
 }
 
 .card-profile {
-    
+    right: 38%;
+    top: 25%;
     position: absolute;
+    justify-content: center;
+    
     border-radius: 50%;
     border-color: white;
     border-radius: 15px;
@@ -62,7 +79,7 @@ hr {
     align-items: center;
     text-align: center;
     
-    padding: 2rem 0 2rem 0;
+    padding: 4rem 0 2rem 0;
     font: 300;
     color: hsl(229, 23%, 23%);
 }
@@ -76,26 +93,40 @@ hr {
     padding: 0 0 2rem 0;
 }
 
+.card-bottom p {
+    color: hsl(0, 0%, 59%);
+    font-size: 15px;
+}
+
+.card-bottom h3 {
+    padding: 1rem 0 0 0;
+}
+
 #image-top{
     border-radius: 15px 15px 0 0;
+    width: 100%;
+    height: 160px;
 }
 
 #image-profile {
     border-radius: 50%;
-    border-color: white;
-    border-width: 15px;
+    border: 6px solid white
 }
 
 .followers {
     text-align: center;
+    font-weight: 300;
 }
 
 .likes {
     text-align: center;
+    font-weight: 300;
+    
 }
 
 .photos {
     text-align: center;
+    font-weight: 300;
 }
 
 .unbold-text {
@@ -105,10 +136,10 @@ hr {
 }
 
 footer {
+    position: relative;
     font-size: 11px; 
     text-align: center; 
     align-items: center;
     color: hsl(228, 45%, 44%); 
     padding:  4rem 0 2rem;
 }
-
